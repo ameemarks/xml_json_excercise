@@ -1,0 +1,55 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: "Droid Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-indent: 25px;
+}
+
+h3 {
+    font-size: 15px;
+    line-height: 5px;
+    font-weight: normal;
+}
+
+pre {
+    margin: 20px;
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.code_container{
+    border: dashed;
+    background-color: black;
+    color: #ffe7c5;
+}
+
+.json_result .code_container{
+    color: #eff3f8;
+}
+
+.xml_code h2 {
+    margin-top: 30px;
+}
+
+.json_result h2 {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 820px) {
+    .container {
+        width: 95%;
+    }
+}

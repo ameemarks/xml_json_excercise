@@ -1,0 +1,44 @@
+bower_components
+css
+<<<<<<< HEAD
+.idea/
+=======
+>>>>>>> 0e1a1a24ab93c437ded4a38ca316d6fdc2141a23
+
+# OS generated files #
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+*.log
+*.sqlite
+
+# NPM #
+pids
+logs
+results
+npm-debug.log
+
+# Directories #
+node_modules/
+.sass-cache/
+
+# Images #
+*.psd
+*.ai
+*.bmp
+<<<<<<< HEAD
+views/
+=======
+>>>>>>> 0e1a1a24ab93c437ded4a38ca316d6fdc2141a23

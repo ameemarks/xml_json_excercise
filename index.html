@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xml to json</title>
+    <link rel="stylesheet"  type="text/css" href="style.css">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>XML parser</h1>
+
+        <section class="xml_code">
+            <h2>XML code</h2>
+            <div class="code_container">
+                <!-- XML code from .js file -->
+                <pre id="sample"></pre>
+            </div>
+        </section>
+
+        <section class="json_result">
+            <h2>The list of 2nd* level nodes** with the number of its immediate child nodes** in JSON format</h2>
+            <h3>* the root element is treated as the 1st level node</h3>
+            <h3>** in this particular case only XML elements are treated as nodes </h3>
+            <div  class="code_container">
+                <!-- JSON code from .js file -->
+                <pre id="demo"></pre>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
